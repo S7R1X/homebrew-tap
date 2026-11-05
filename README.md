@@ -2,6 +2,7 @@
 
 ```bash
 brew tap S7R1X/tap
+brew trust S7R1X/tap   # una sola vez: Homebrew pide confirmar los taps no oficiales
 brew install --cask hielo
 ```
 
