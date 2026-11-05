@@ -1,6 +1,6 @@
 cask "hielo" do
-  version "1.2.0"
-  sha256 "a7d6199ff326db0acae35bc2094820ba20a08ceee831decd8578e7b9c51cb7c0"
+  version "1.2.1"
+  sha256 "bf81eee368fac4900082bfb400ea8a1ca28417ea53bcce2b3d8fc719c35e693f"
 
   url "https://github.com/S7R1X/Hielo/releases/download/v#{version}/Hielo-#{version}.zip"
   name "Hielo"
