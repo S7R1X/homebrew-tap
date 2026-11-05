@@ -1,6 +1,6 @@
 cask "hielo" do
-  version "1.0.0"
-  sha256 "16a5b054900fb36154b50268cbbd538cea763ce212df16fc5158a8292bfd83b3"
+  version "1.1.0"
+  sha256 "fbf9055595b2a43295ca68c5063aac336fddb82f4f9ffdc6a5f779989078129e"
 
   url "https://github.com/S7R1X/Hielo/releases/download/v#{version}/Hielo-#{version}.zip"
   name "Hielo"
@@ -11,11 +11,13 @@ cask "hielo" do
 
   app "Hielo.app"
 
+  uninstall quit: "bo.strix.hielo"
+
   zap trash: [
-    "~/Library/Application Support/Ice",
-    "~/Library/Caches/com.jordanbaird.Ice",
-    "~/Library/HTTPStorages/com.jordanbaird.Ice",
-    "~/Library/Preferences/com.jordanbaird.Ice.plist",
+    "~/Library/Application Support/Hielo",
+    "~/Library/Caches/bo.strix.hielo",
+    "~/Library/HTTPStorages/bo.strix.hielo",
+    "~/Library/Preferences/bo.strix.hielo.plist",
   ]
 
   caveats <<~EOS
